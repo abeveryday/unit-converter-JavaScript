@@ -1,0 +1,23 @@
+.first {
+  color: saddlebrown;
+}
+.second {
+  color: seagreen;
+}
+li {
+  float: left;
+  width: 20%;
+  display: block;
+  clear: left;
+  text-shadow: 2px 2px 5px plum;
+}
+h1 {
+  color: palevioletred;
+  text-shadow: 2px 2px 5px plum;
+}
+h3 {
+  padding-left: 25em;
+}
+.mid {
+  padding: 1em;
+}

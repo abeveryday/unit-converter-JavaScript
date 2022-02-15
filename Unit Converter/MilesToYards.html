@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Miles to Yards</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>Use this <a href="index.html">Link</a> to go back to the homepage!</p>
+    <li><a href="FarenheitToCelsius.html">Fahrenheit to Celsius</a></li>
+    <li><a href="CupsToOunces.html">Cups to Ounces</a></li>
+    <li><a href="FeetToMeters.html">Feet to Meters</a></li>
+    <h3 align="right">
+      conversion formula:
+      <p>Multiply the length value by 1760</p>
+      <div class="first">
+        Miles originated from the Roman mille passus, or “thousand paces,” which
+        measured 5,000 Roman feet. ... During the reign of Queen Elizabeth I,
+        the mile gained an additional 280 feet—to 5,280—under a statute of 1593
+        that confirmed the use of a shorter foot that made the length of the
+        furlong 660 feet
+      </div>
+      <div class="mid"></div>
+      <div class="second">
+        A yard was originally the length of a man's belt or girdle, as it was
+        called. In the 12th century, King Henry I of England fixed the yard as
+        the distance from his nose to the thumb of his out-stretched arm. Today
+        it is 36 inches.
+      </div>
+    </h3>
+    <script>
+      let unitAmount = prompt(
+        "Enter the amount of units you would like to convert to yards."
+      );
+      alert("converted units: " + unitAmount * 1760 + " yards");
+    </script>
+  </body>
+</html>
